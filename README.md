@@ -1,4 +1,4 @@
-<h1 align="center">React Redux CRUD</h1>
+<h1 align="center">React Redux </h1>
 
 ### Commands:
 

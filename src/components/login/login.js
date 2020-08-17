@@ -27,6 +27,7 @@ const Login = (props) => {
       }
     
     if(data.username == user[0].username && data.password == user[0].password ){
+      
       props.history.push("/users");
 
     }

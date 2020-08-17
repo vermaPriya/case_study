@@ -42,6 +42,15 @@ const NavBar = ({ location: { pathname } }) => {
                 Users
               </Link>
             </li>
+            <li
+              className={`nav-item ${
+                pathname.startsWith('/login') ? 'active' : ''
+              }`}
+            >
+              <Link to="/login" className="nav-link">
+                Logout
+              </Link>
+            </li>
           </ul>
         </Collapse>
       </div>
